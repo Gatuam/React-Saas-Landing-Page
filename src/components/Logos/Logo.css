@@ -1,0 +1,17 @@
+.logo-section {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 7vw;
+  white-space: nowrap ;
+  width: max-content;
+  max-width: content;
+}
+
+.logo-section::-webkit-scrollbar{
+  display: none;
+}
+

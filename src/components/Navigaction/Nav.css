@@ -1,0 +1,25 @@
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw ;
+  border-bottom: solid 1px #048c8131;
+}
+.nav-cta{
+  background: linear-gradient(
+    25deg,
+    #017373 0%,
+    rgba(170, 217, 209, 1) 100%);
+    cursor: pointer;
+    transition: all 0.1;
+}
+.nav-cta-white{
+    cursor: pointer;
+    transition: all 0.1;
+    border: 1px rgb(0, 0, 0) solid ;
+}
+.nav-cta:hover{
+  scale: 1.05;
+  transition: all 0.1s ease-in-out;
+}
+
