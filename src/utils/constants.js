@@ -68,7 +68,7 @@ const pricings = [{
   planicon: new URL('/src/assets/pricing/enterprise-plan.svg', import.meta.url).href,
   planPrice: "Custom",
   bullets:[
-    "Full-stack web app with dashboard",
+    "Full-stack  with dashboard",
     "Advanced UI/UX & animations",
     "API & third-party integrations",
     "Performance optimization",
@@ -77,4 +77,39 @@ const pricings = [{
   callToAction: "Start Free Trail"
 },]
 
-export { logos ,features, pricings };
+const FAQS = [
+  {
+    id: 1,
+    question: "What services do you offer?",
+    answer: "We provide a comprehensive range of digital solutions to help businesses grow and thrive online. Our services include full-stack web development, custom mobile app development, modern UI/UX design, eCommerce store creation, branding and identity design, and post-launch support. Whether you're a startup looking for a brand-new product or an established business wanting a redesign, we tailor our solutions to meet your specific needs and goals."
+  },
+  {
+    id: 2,
+    question: "How long does it take to complete a web development project?",
+    answer: "The timeline for a web development project varies depending on the scope, features, and complexity. Typically, a standard website with 4–6 pages can take 2 to 4 weeks, while larger custom web applications can take 6 to 12 weeks or more. We begin with a discovery phase, then move into design, development, testing, and finally deployment. We also maintain regular communication throughout to ensure alignment with your expectations."
+  },
+  {
+    id: 3,
+    question: "What technologies do you use for development?",
+    answer: "We use the latest and most reliable technologies in the industry to build high-performing digital products. Our stack includes React, Next.js, and Vue.js for the frontend; Node.js, Express, and NestJS for the backend; and MongoDB and PostgreSQL for databases. For UI/UX, we rely on tools like Figma and Adobe XD. We also work with WordPress and headless CMS platforms for content-driven websites. Our tech choices are always driven by project requirements and scalability goals."
+  },
+  {
+    id: 4,
+    question: "Do you provide post-launch support and maintenance?",
+    answer: "Yes, absolutely. Launching a website or app is just the beginning. We offer ongoing support and maintenance services to ensure your platform remains secure, updated, and high-performing. This includes regular software updates, bug fixes, uptime monitoring, security patching, content updates, and performance optimization. Our support plans are flexible and can be tailored to suit your business needs, ensuring peace of mind long after the launch."
+  },
+  {
+    id: 5,
+    question: "Can you redesign our existing website or app?",
+    answer: "Definitely. We specialize in transforming outdated or underperforming digital platforms into modern, user-friendly experiences. Our redesign process starts with a thorough audit of your current website or app to understand pain points and opportunities. From there, we craft a strategy focused on improved usability, visual appeal, performance, and alignment with your brand. Whether it’s a full visual overhaul or just UX improvements, we aim to deliver measurable results."
+  },
+  {
+    id: 6,
+    question: "How do we get started with your services?",
+    answer: "Getting started is easy! Simply reach out to us through our website's contact form or via email. We'll schedule a free initial consultation to learn more about your business goals, project vision, and technical needs. Based on that, we’ll prepare a tailored proposal with a clear roadmap, timeline, and pricing structure. From discovery to delivery, we ensure a smooth and transparent collaboration every step of the way."
+  }
+];
+
+
+
+export { logos ,features, pricings, FAQS };

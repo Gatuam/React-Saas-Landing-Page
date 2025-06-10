@@ -1,8 +1,10 @@
 import React from 'react'
 
-const FAQ = () => {
+const FAQ = ( { children } ) => {
   return (
-    <div></div>
+    <div>
+      { children }
+    </div>
   )
 }
 
