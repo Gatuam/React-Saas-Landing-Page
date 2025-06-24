@@ -1,15 +1,13 @@
 import React from 'react';
 import "./Nav.css";
-import logo from '../../assets/logo.svg'
 import arrow from '../../assets/arrow.svg'
 
 const Nav = () => {
   return (
     <nav className="nav-header">
       <div className="logo-nav flex justify-center items-center gap-2 text-white ">
-        <img className="logo" src={logo} alt=""  />
-        <h1 className="logo-name text-2xl font-bold  ">
-          Optical
+        <h1 className="logo-name text-3xl font-bold  ">
+          TECH <span className='text-[#24e7c9d8]'> NOVA</span>
         </h1>
       </div>
       <div className="nav-link-div flex justify-between items-center gap-20 text-white decoration-0 ">

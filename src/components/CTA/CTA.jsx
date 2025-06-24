@@ -9,7 +9,7 @@ const CTA = () => {
         <h1 className="heading text-5xl text-white font-bold w-[75%] mb-5 ">
           Still have questions? We're here to help.
         </h1>
-        <p className="content text-xl font-thin text-neutral-400 w-[75%] mb-3">
+        <p className="content text-xl font text-neutral-400 w-[75%] mb-3">
           Didn’t find what you were looking for? Contact our support team and
           we’ll make sure you get the answers you need—fast and clear.
         </p>

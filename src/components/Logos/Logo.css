@@ -14,4 +14,8 @@
 .logo-section::-webkit-scrollbar{
   display: none;
 }
+.logo-div{
+  overflow: hidden !important;
+}
+
 

@@ -6,13 +6,7 @@
     background: linear-gradient(25deg, #017373 0%, rgba(170, 217, 209, 1) 100%);
   }
 }
-@layer utilities {
-  .text-gradient {
-    background: linear-gradient(25deg, #017373 0%, #aad9d1 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-}
+
 
 :root {
   --primary-400: #080808;
@@ -35,77 +29,10 @@
   );
 }
 
-.body {
+body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   background-color: black !important;
-}
-
-.text-large {
-  font-family: "Be Vietnam Pro";
-  font-size: 20px;
-  line-height: 150%;
-  margin: 0px;
-}
-
-.text-reg {
-  font-family: "DM Sans";
-  line-height: 150%;
-  margin: 0px;
-}
-
-.text-med {
-  font-family: "DM Sans";
-  font-size: 18px;
-  line-height: 150%;
-  margin: 0px;
-}
-
-.text-small {
-  font-family: "DM Sans";
-  font-size: 14px;
-  line-height: 140%;
-  margin: 0px;
-}
-
-.text-tiny {
-  font-family: "DM Sans";
-  font-size: 12px;
-  line-height: 150%;
-  margin: 0px;
-}
-
-.h1 {
-  font-family: "DM Sans";
-  font-size: 56px;
-  line-height: 106%;
-  letter-spacing: -3px;
-  margin: 0px;
-}
-
-.h2 {
-  font-family: "DM Sans";
-  font-size: 48px;
-  line-height: 120%;
-  letter-spacing: -3px;
-  margin: 0px;
-}
-
-.h3 {
-  font-family: "Be Vietnam Pro";
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 120%;
-  letter-spacing: -0.64px;
-  margin: 0px;
-}
-
-.h5 {
-  font-family: "DM Sans";
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 140%;
-  letter-spacing: -0.64px;
-  margin: 0px;
+   font-family: "DM Sans", sans-serif;
 }

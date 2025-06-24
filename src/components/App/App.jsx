@@ -35,7 +35,7 @@ function App() {
               </h3>
               <div className="tex-info flex justify-center items-center gap-7 mt-3 ">
                 <p className="font-bold text-zinc-400">EK GAUTHAM</p>
-                <p className="text-zinc-600 font-thin ">full stack developer</p>
+                <p className="text-zinc-600 ">full stack developer</p>
               </div>
               <img className=" absolute top-0 left-0 " src={quote} alt="" />
             </div>
@@ -54,7 +54,7 @@ function App() {
               </h3>
               <div className="tex-info flex justify-center items-center gap-7 mt-3 ">
                 <p className="font-bold text-zinc-400">EK GAUTHAM</p>
-                <p className="text-zinc-600 font-thin ">full stack developer</p>
+                <p className="text-zinc-600 ">full stack developer</p>
               </div>
               <img className=" absolute top-0 left-0 " src={quote} alt="" />
             </div>
@@ -73,7 +73,7 @@ function App() {
               </h3>
               <div className="tex-info flex justify-center items-center gap-7 mt-3 ">
                 <p className="font-bold text-zinc-400">EK GAUTHAM</p>
-                <p className="text-zinc-600 font-thin ">full stack developer</p>
+                <p className="text-zinc-600 ">full stack developer</p>
               </div>
               <img className=" absolute top-0 left-0 " src={quote} alt="" />
             </div>
@@ -92,7 +92,7 @@ function App() {
               </h3>
               <div className="tex-info flex justify-center items-center gap-7 mt-3 ">
                 <p className="font-bold text-zinc-400">EK GAUTHAM</p>
-                <p className="text-zinc-600 font-thin ">full stack developer</p>
+                <p className="text-zinc-600">full stack developer</p>
               </div>
               <img className=" absolute top-0 left-0 " src={quote} alt="" />
             </div>
@@ -113,7 +113,7 @@ function App() {
               </h3>
               <div className="tex-info flex justify-center items-center gap-7 mt-3 ">
                 <p className="font-bold text-zinc-400">EK GAUTHAM</p>
-                <p className="text-zinc-600 font-thin ">full stack developer</p>
+                <p className="text-zinc-600">full stack developer</p>
               </div>
               <img className=" absolute top-0 left-0 " src={quote} alt="" />
             </div>

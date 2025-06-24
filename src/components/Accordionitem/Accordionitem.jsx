@@ -12,8 +12,8 @@ const Accordionitem = () => {
   };
 
   return (
-    <div className=" faqs-container group w-full h-100vh bg-zinc-950 flex flex-col justify-center items-center gap-1 px-2 py-10 relative ">
-      <img className=" absolute -top-30 left-350" src={circle} alt="" />
+    <div className=" faqs-container group w-full h-100vh bg-zinc-950 flex flex-col justify-center items-center gap-1 px-2 py-10 relative overflow-hidden ">
+      <img className=" absolute -top-10 left-350" src={circle} alt="" />
       <div className=" flex flex-col items-center justify-center px-4 py-4 mb-6  ">
         <h1 className=" font-bold text-5xl text-transparent bg-gradient-to-r from-cyan-100 to-cyan-500 bg-clip-text mb-4 ">
           Frequently Ask Questions?
@@ -30,7 +30,7 @@ const Accordionitem = () => {
             key={i}
             onClick={() => handleAns(i)}
           >
-            <div className="faq-question group-hover:cursor-pointer w-[80%] items-center  border-1 border-r-2 border-l-2 border-[#55eea922] border-r-[#55eea95e] border-l-[#55eea95e] gap-2.5 px-8 py-4  rounded-lg mb-5 ">
+            <div className="faq-question group-hover:cursor-pointer w-[80%] items-center  border-1 border-r-2 border-l-2 border-[#55eea922] border-r-[#55eea95e] border-l-[#55eea95e] gap-2.5 px-8 py-4  rounded-lg mb-2 ">
               <div className=" w-full">
                 <h1 className=" text-white text-xl flex justify-between ">
                   {faq.question}
@@ -45,7 +45,7 @@ const Accordionitem = () => {
 
             {open === i && (
               <div className="faq-answers">
-                <div className="flex flex-col gap-2 w-[1130px] bg-[#eeeeee1d] px-7 py-5 rounded-xl border-1 border-r-2 border-l-2 border-[#55eea922] border-r-[#55eea95e] border-l-[#55eea95e] ">
+                <div className="flex flex-col gap-2 w-[1070px] bg-[#eeeeee1d] px-7 py-5 rounded-xl border-1 border-r-2 border-l-2 border-[#55eea922] border-r-[#55eea95e] border-l-[#55eea95e]  mb-4">
                   <h2 className="text-neutral-100 text-md font-bold mt-2 mb-4">
                     {faq.question}
                   </h2>
